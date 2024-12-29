@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Jost", "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+h1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* announcement */
+.announcement {
+  background-color: #000;
+  text-align: center;
+  padding: 0.5em;
+  letter-spacing: 0.06em;
+}
+.announcement a {
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.65em;
+}
+
+/* header */
+
+.header-top {
+  border-bottom: 2px solid rgba(204, 204, 204, 0.6);
+}
+
+.logo {
+  text-align: center;
+  margin: 1.5em 40em 0 40em;
+}
+
+.logo img {
+  width: 70%;
+}
+
+.nav-left {
+  margin-left: 5em;
+  float: left;
+  position: absolute;
+  top: 5em;
+}
+
+.nav-left a {
+  color: #000;
+  text-decoration: none;
+  font-size: 0.75em;
+}
+
+.nav-left img {
+  width: 20px;
+  position: relative;
+  top: 0.25em;
+}
+
+.nav-right {
+  float: right;
+  position: absolute;
+  top: 5em;
+  right: 5em;
+}
+
+.nav-right a {
+  color: #000;
+  text-decoration: none;
+  font-size: 0.75em;
+  padding-left: 0.25em;
+}
+
+.nav-right img {
+  width: 20px;
+}
+
+/* nav bar */
+
+.nav-bar {
+  margin: 1em 6em 1.5em 6em;
+}
+
+.nav-bar ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.nav-bar ul li a {
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Poppins", "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 0.85em;
+  font-weight: 500;
+}
+
+.nav-left-mobile {
+  display: none;
+}
+.nav-right-mobile {
+  display: none;
+}
+
+/* hover */
+.nav-bar ul li a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-left-mobile {
+    display: block;
+    position: relative;
+    bottom: 3em;
+  }
+
+  .nav-left-mobile ul {
+    display: flex;
+    list-style: none;
+  }
+
+  .nav-left-mobile ul li img {
+    width: 20px;
+    margin-left: 1em;
+  }
+
+  .nav-right-mobile {
+    display: block;
+    float: right;
+    position: relative;
+    bottom: 4.5em;
+  }
+
+  .nav-right-mobile ul {
+    display: flex;
+    list-style: none;
+  }
+
+  .nav-right-mobile ul li img {
+    width: 20px;
+    margin-right: 1em;
+  }
+
+  .nav-left,
+  .nav-right {
+    display: none;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+  .header-top {
+    border-bottom: 2px solid rgba(204, 204, 204, 0.6);
+  }
+  .logo {
+    text-align: center;
+    margin: 1em 9em 1em 9em;
+  }
+  .logo img {
+    width: 100%;
+  }
+}

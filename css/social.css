@@ -1,0 +1,971 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Jost", "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+}
+
+/* main-banner */
+
+.banner-container {
+  background: url(../image/social-impact.jpeg) no-repeat;
+  background-size: cover;
+  padding-bottom: 3em;
+  margin-top: 0;
+}
+
+.banner-text-container {
+  margin: 0 39.5em 0 15em;
+  text-align: center;
+}
+
+.banner-text-container h1 {
+  padding-top: 1.5em;
+  font-size: 2.5em;
+  font-weight: 500;
+}
+
+.banner-text-container p {
+  padding: 1em 0 2em 0;
+}
+
+.banner-text-container a {
+  color: #000;
+  font-size: 0.9em;
+}
+
+/* our-mission */
+
+.our-mission-container {
+  background: url(../image/our-mission-hero.jpeg) no-repeat;
+  background-size: cover;
+  padding-bottom: 25em;
+}
+
+.our-mission-empowering {
+  background: url(../image/our-mission-empowering-self.jpeg) no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.our-mission-text-container {
+  text-align: center;
+  margin: 0 22.5em;
+  padding: 18em 0;
+}
+
+.our-mission-text-container p {
+  font-family: "Jost", sans-serif;
+  color: #fff;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  margin-top: 1em;
+}
+
+.our-mission-btn {
+  margin-top: 3em;
+}
+
+.our-mission-btn a {
+  font-family: "Jost", sans-serif;
+  text-decoration: none;
+  background-color: #fff;
+  color: #427e2b;
+  font-size: 0.85em;
+  font-weight: 500;
+  padding: 1em 2em;
+  margin: 1em;
+}
+
+/* content */
+
+.content-mobile {
+  display: none;
+}
+
+.first-row-content {
+  display: flex;
+  height: 603px;
+}
+
+.first-row-content-left {
+  width: 50%;
+  background-color: #f28fb9;
+  text-align: center;
+}
+
+.first-row-content-left h1 {
+  margin-top: 2em;
+  font-size: 4em;
+  font-weight: 400;
+}
+
+.first-row-content-left p {
+  font-size: 1.2em;
+  margin: 1em 7.7em 0 7.7em;
+  letter-spacing: 0.01em;
+}
+
+.first-row-content-right {
+  width: 50%;
+  height: 603px;
+}
+
+.first-row-content-right img {
+  width: 100%;
+}
+
+.second-row-content {
+  display: flex;
+  height: 603px;
+}
+
+.second-row-content-left {
+  width: 50%;
+}
+
+.second-row-content-left img {
+  width: 100%;
+}
+
+.second-row-content-right {
+  width: 50%;
+  background-color: #3963ad;
+  text-align: center;
+  color: #fff;
+}
+
+.second-row-content-right h1 {
+  margin-top: 2em;
+  font-size: 4em;
+  font-weight: 400;
+}
+
+.second-row-content-right p {
+  font-size: 1.2em;
+  margin: 1em 7.7em 0 7.7em;
+  letter-spacing: 0.01em;
+}
+
+.third-row-content {
+  display: flex;
+  height: 603px;
+}
+
+.third-row-content-left {
+  width: 50%;
+  background-color: #427e2b;
+  color: #fff;
+  height: 603px;
+  text-align: center;
+}
+
+.third-row-content-left h1 {
+  margin-top: 2em;
+  font-size: 4em;
+  font-weight: 400;
+}
+
+.third-row-content-left p {
+  font-size: 1.2em;
+  margin: 1em 7em 0 7em;
+  letter-spacing: 0.01em;
+}
+
+.third-row-content-right {
+  width: 50%;
+}
+
+.third-row-content-right img {
+  width: 100%;
+}
+
+/* profile */
+
+.text-box {
+  text-align: center;
+  margin-top: 5em;
+}
+
+.text-box h1 {
+  font-size: 4em;
+  font-weight: 500;
+}
+
+.text-box p {
+  font-size: 1.3em;
+  margin: 1em 20em;
+  letter-spacing: 0.01em;
+}
+
+/* profile cards */
+
+.profile-container-row ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.profile-container-row ul li {
+  width: 30%;
+}
+
+.profile-cards {
+  margin: 2em 1em;
+}
+
+.profile-cards img {
+  width: 50%;
+  margin-bottom: 1em;
+}
+
+.text-profile-container h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+  padding-bottom: 0.5em;
+}
+
+.text-profile-container p {
+  color: #00530f;
+  padding-bottom: 0.5em;
+  letter-spacing: 0.01em;
+  margin-right: 2.2em;
+}
+
+.text-profile-container p + p {
+  color: #000;
+}
+
+.text-profile-container a {
+  color: #00530f;
+  text-decoration: none;
+  border-bottom: 1px solid #000;
+}
+
+.banner-content-mobile {
+  display: none;
+}
+
+.banner-content-container {
+  background-color: #fff9f2;
+  margin-top: 4em;
+}
+
+.header-top-container {
+  text-align: center;
+  padding-top: 3em;
+}
+
+#crisis-mobile {
+  display: none;
+}
+
+.header-top-container h4 {
+  font-weight: 400;
+  font-size: 1.1em;
+}
+
+.header-top-container h1 {
+  font-size: 4.5em;
+  font-weight: 500;
+  margin-bottom: 0.25em;
+  color: #427e2b;
+}
+
+.header-top-container p {
+  font-size: 1.2em;
+  margin: 1em 22em 2em 22em;
+}
+
+.header-top-container img {
+  width: 95%;
+  margin-bottom: 8em;
+}
+
+/* text cards */
+
+.text-cards-container {
+  padding-bottom: 4em;
+}
+
+.text-cards-container ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.text-cards-container ul li {
+  width: 26%;
+}
+
+.text-card {
+  margin: 0 1em;
+}
+
+.text-card h1 {
+  font-weight: 400;
+}
+
+.text-card p {
+  margin: 1em 2em 0.5em 0;
+  letter-spacing: 0.02em;
+}
+
+.text-card a {
+  color: #00530f;
+}
+
+.text-card-btn {
+  margin-top: 10em;
+  text-align: center;
+}
+
+.text-card-btn a {
+  border: 1px solid #00530f;
+  color: #000;
+  padding: 0.75em 2em;
+  text-decoration: none;
+  font-size: 0.85em;
+  font-weight: 500;
+}
+
+/* banner green */
+.banner-green-container {
+  background: url(../image/our-mission-born-this-way.jpeg) no-repeat;
+  background-size: cover;
+}
+
+.banner-green-text {
+  text-align: center;
+  color: #fff;
+  padding-top: 18em;
+  padding-bottom: 10em;
+}
+
+.banner-green-text h1 {
+  font-weight: 500;
+  font-size: 3.5em;
+  padding: 0 5.5em;
+}
+
+.banner-green-text p {
+  padding-top: 3em;
+  font-size: 1.5em;
+}
+
+/* container text  */
+.container-text {
+  background-color: #fff9ee;
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+.container-text h1 {
+  padding-top: 1em;
+  font-size: 3.5em;
+  font-weight: 500;
+  color: #427e2b;
+}
+
+.container-text p {
+  font-size: 1.2em;
+  margin: 1em 20.5em;
+}
+
+.container-text-country {
+  display: flex;
+  justify-content: center;
+  background-color: #fff9ee;
+}
+
+.text-country {
+  width: 28%;
+}
+
+.text-country h2 {
+  font-size: 2em;
+  padding: 1em 0;
+  font-weight: 500;
+  color: #427e2b;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.text-country p {
+  font-size: 1.3em;
+  margin-right: 5em;
+  letter-spacing: 0.01em;
+}
+
+.text-country a {
+  color: #000;
+  text-decoration: none;
+}
+
+.more-info-container {
+  background-color: #fff9ee;
+  padding-bottom: 4em;
+}
+
+.more-info {
+  margin: 0 7em;
+  padding-bottom: 3em;
+}
+
+.more-info h1 {
+  font-size: 3em;
+  font-weight: 500;
+  padding: 1em 0;
+  color: #427e2b;
+}
+
+.more-info a {
+  color: #575757;
+  font-size: 1.2em;
+  text-decoration: none;
+  border-bottom: 1px solid #000;
+}
+
+.line {
+  text-align: center;
+  margin: 0 2em;
+}
+
+.line hr {
+  border: 0.5px solid #000;
+}
+
+/* our progress */
+
+.our-progress-container-mobile {
+  display: none;
+}
+
+.our-progress-container {
+  background: url(../image/our-mission-progress.jpeg) no-repeat;
+  background-size: cover;
+}
+
+.our-progress-text-container {
+  text-align: center;
+  padding-top: 13em;
+  padding-bottom: 9em;
+  color: #fff;
+}
+
+.our-progress-text-container h1 {
+  font-size: 3em;
+  font-weight: 500;
+}
+
+.our-progress-text-container p {
+  padding-top: 1em;
+  font-size: 1.3em;
+  margin: 0 25em;
+  letter-spacing: 0.01em;
+  padding-bottom: 1em;
+}
+
+.our-progress-text-container a {
+  color: #fff;
+  font-size: 1.5em;
+  text-decoration: none;
+  border-bottom: 2px solid #fff;
+  margin-right: 1em;
+}
+
+/* contact content */
+.contact-content {
+  background-color: #427e2b;
+  text-align: center;
+}
+
+.contact-content p {
+  color: #fff;
+  font-size: 1.3em;
+  padding: 3em 0;
+}
+
+.contact-content a {
+  color: #fff;
+}
+
+.info {
+  text-align: center;
+}
+
+.info p {
+  padding-top: 1em;
+  font-size: 1.1em;
+}
+
+/* hover  */
+
+.our-mission-btn a:hover {
+  background-color: #427e2b;
+  color: #fff;
+}
+
+.text-country a:hover {
+  text-decoration: underline;
+}
+
+.more-info a:hover {
+  color: #000;
+}
+
+@media only screen and (max-width: 600px) {
+  .banner-container {
+    background: url(../image/our-mission-wmhd-mobile.jpeg) no-repeat;
+    background-size: cover;
+    padding-bottom: 1.5em;
+    margin-top: 0;
+  }
+
+  .banner-text-container {
+    /* margin: 0 39.5em 0 15em; */
+    margin: 0;
+    text-align: center;
+  }
+
+  .banner-text-container h1 {
+    padding-top: 3.5em;
+    font-size: 1.75em;
+    font-weight: 500;
+    line-height: 1em;
+  }
+
+  .banner-text-container p {
+    padding: 1em 2em 1em 2em;
+    font-size: 0.9em;
+  }
+
+  .banner-text-container a {
+    color: #000;
+    font-size: 1em;
+  }
+
+  /* our-mission */
+
+  .our-mission-container {
+    background: url(../image/our-mission-hero-mobile.jpeg) no-repeat;
+    background-size: cover;
+    padding-bottom: 18em;
+  }
+
+  .our-mission-empowering {
+    background: url(../image/our-mission-empowering-self-mobile.jpeg) no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+
+  .our-mission-text-container {
+    text-align: center;
+    margin: 0 2em;
+    padding: 12em 0;
+  }
+
+  .our-mission-text-container p {
+    font-size: 0.9em;
+    line-height: 1.5em;
+    margin-top: 1em;
+  }
+
+  .our-mission-text-container p + p {
+    margin: 0 1em;
+    padding-top: 1em;
+  }
+
+  .our-mission-btn {
+    margin-top: 0.75em;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .our-mission-btn a {
+    font-family: "Jost", sans-serif;
+    text-decoration: none;
+    background-color: #fff;
+    color: #427e2b;
+    font-size: 1em;
+    font-weight: 500;
+    margin: 1em;
+    width: 100%;
+  }
+
+  .content-desktop {
+    display: none;
+  }
+
+  .content-mobile {
+    display: block;
+  }
+
+  .first-row {
+    margin-top: 2em;
+    background-color: #f28fb9;
+    text-align: center;
+  }
+
+  .first-row h1 {
+    font-size: 2.5em;
+    padding-top: 1em;
+  }
+
+  .first-row p {
+    font-size: 0.9em;
+    padding-top: 1em;
+  }
+
+  .first-row p + p {
+    padding-bottom: 4em;
+  }
+
+  .second-row img {
+    width: 100%;
+  }
+
+  .third-row {
+    background-color: #3963ad;
+    color: #fff;
+    text-align: center;
+  }
+
+  .third-row h1 {
+    font-size: 2.5em;
+    padding-top: 1em;
+  }
+
+  .third-row p {
+    font-size: 0.95em;
+    padding-top: 1em;
+    padding-bottom: 3em;
+  }
+
+  .forth-row img {
+    width: 100%;
+  }
+
+  .fifth-row {
+    background-color: #427e2b;
+    color: #fff;
+    text-align: center;
+  }
+
+  .fifth-row h1 {
+    font-size: 2.5em;
+    padding-top: 1em;
+  }
+
+  .fifth-row p {
+    font-size: 0.95em;
+    padding-top: 0.9em;
+  }
+
+  .fifth-row p + p {
+    padding-bottom: 4em;
+  }
+
+  .sixth-row img {
+    width: 100%;
+  }
+
+  /* profile */
+
+  .text-box {
+    margin-top: 2em;
+  }
+
+  .text-box h1 {
+    font-size: 3em;
+  }
+
+  .text-box p {
+    font-size: 1.3em;
+    margin: 1em 1.3em;
+    letter-spacing: 0.01em;
+  }
+
+  /* profile cards */
+
+  .profile-container-row ul {
+    display: block;
+  }
+
+  .profile-container-row ul li {
+    width: 100%;
+  }
+
+  .profile-cards {
+    margin: 2em 0;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-bottom: 2em;
+    border-bottom: 2px solid #000;
+  }
+
+  .profile-cards img {
+    width: 35%;
+    margin-bottom: 1em;
+  }
+
+  .text-profile-container p {
+    padding-bottom: 0.5em;
+    letter-spacing: 0.01em;
+    margin-right: 2em;
+    font-size: 1.1em;
+  }
+
+  .text-profile-container p + p {
+    display: none;
+  }
+
+  .banner-content-container {
+    background-color: #fff9f2;
+    margin-top: 5em;
+  }
+
+  .header-top-container {
+    text-align: center;
+    padding-top: 4em;
+  }
+
+  .header-top-container h4 {
+    font-weight: 400;
+    font-size: 1.3em;
+    padding-bottom: 0.5em;
+  }
+
+  .header-top-container h1 {
+    font-size: 3em;
+    font-weight: 500;
+    margin-bottom: 0.25em;
+    color: #427e2b;
+    padding: 0 1em;
+  }
+
+  .header-top-container p {
+    font-size: 1.3em;
+    margin: 0 1.5em;
+    padding-bottom: 2em;
+  }
+
+  #crisis-mobile {
+    display: block;
+    width: 100%;
+  }
+
+  .header-top-container img {
+    display: none;
+    margin-bottom: 0;
+  }
+
+  /* text cards */
+
+  .text-cards-container {
+    display: none;
+  }
+
+  .banner-content-mobile {
+    display: block;
+    margin-top: 3em;
+    padding-bottom: 2em;
+  }
+
+  .content-card {
+    margin: 0 2.5em;
+    margin-top: 0.5em;
+  }
+
+  .content-card img {
+    width: 25%;
+    padding-bottom: 1em;
+  }
+
+  .content-card h2 {
+    font-size: 1.8em;
+    font-weight: 500;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  .content-card h3 {
+    font-size: 1.2em;
+    font-weight: 400;
+    padding-top: 1em;
+  }
+
+  .content-card p {
+    font-size: 1.2em;
+    padding-top: 1em;
+    /* padding-bottom: 1em; */
+  }
+
+  .content-card a {
+    font-size: 1.2em;
+    color: #00530f;
+  }
+
+  .content-card hr {
+    border: 0;
+    border-top: 2px solid #000;
+    padding-bottom: 2em;
+    margin-top: 2.5em;
+  }
+
+  .card-btn-mobile {
+    text-align: center;
+    margin: 5em 0 4em 0;
+  }
+
+  .card-btn-mobile a {
+    text-decoration: none;
+    padding: 0.85em 2em;
+    color: #000;
+    border: 2px solid #00530f;
+    font-size: 1.2em;
+  }
+
+  /* banner green */
+  .banner-green-container {
+    background: url(../image/our-mission-born-this-way-mobile.jpeg) no-repeat;
+    background-size: cover;
+  }
+
+  .banner-green-text {
+    text-align: center;
+    color: #fff;
+    padding-top: 12em;
+    padding-bottom: 4em;
+  }
+
+  .banner-green-text h1 {
+    font-size: 1.75em;
+    padding: 0 2.3em;
+  }
+
+  .banner-green-text p {
+    padding-top: 2.5em;
+    font-size: 1.2em;
+  }
+
+  /* container text  */
+  .container-text {
+    padding-bottom: 1em;
+  }
+
+  .container-text h1 {
+    padding-top: 2em;
+    font-size: 2.5em;
+    padding: 2em 2em 0 2em;
+  }
+
+  .container-text p {
+    font-size: 1.2em;
+    margin: 1em 2.45em;
+  }
+
+  .container-text-country {
+    display: block;
+  }
+
+  .text-country {
+    width: 100%;
+    padding-left: 4em;
+    padding-bottom: 2em;
+  }
+
+  .text-country h2 {
+    font-size: 2.5em;
+    padding: 0;
+    font-weight: 500;
+    color: #427e2b;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  .text-country p {
+    font-size: 1.3em;
+    margin-right: 5em;
+    letter-spacing: 0.01em;
+  }
+
+  .text-country a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  .more-info-container {
+    padding-bottom: 4em;
+  }
+
+  .more-info {
+    margin: 0 3.5em;
+    padding-bottom: 3em;
+  }
+
+  .more-info h1 {
+    font-size: 2em;
+    padding: 0.5em 0;
+  }
+
+  .line {
+    display: none;
+  }
+
+  /* our progress */
+
+  .our-progress-container {
+    display: none;
+  }
+
+  .our-progress-container-mobile {
+    display: block;
+  }
+
+  .our-progress-container-mobile img {
+    width: 100%;
+  }
+
+  .our-progress-text-mobile {
+    padding: 2em;
+  }
+
+  .our-progress-text-mobile h1 {
+    font-size: 1.75em;
+  }
+
+  .our-progress-text-mobile p {
+    font-size: 1.3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+
+  .our-progress-text-mobile a {
+    color: #000;
+    font-size: 1.3em;
+    text-decoration: none;
+    border-bottom: 1px solid #000;
+    margin-right: 0.5em;
+  }
+
+  .contact-content p {
+    font-size: 1.3em;
+    padding: 1.5em 4.5em;
+  }
+
+  .info {
+    text-align: center;
+  }
+
+  .info p {
+    padding: 1.5em;
+    font-size: 1.1em;
+  }
+}

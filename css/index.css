@@ -1,0 +1,510 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Jost", "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+h1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* preview */
+
+.banner-preview-container {
+  margin-top: 0.5em;
+  background: url(../image/hero-desktop.jpeg) no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.text-preview {
+  color: #fff;
+  text-align: center;
+  padding: 7em 0;
+  margin-right: 2em;
+}
+
+.text-preview h3 {
+  font-size: 1.5em;
+  font-weight: 500;
+  margin-bottom: 1em;
+}
+
+#text-style {
+  font-weight: 400;
+}
+
+.text-preview a {
+  font-size: 0.95em;
+  background: linear-gradient(to right, #e7c88b, #fbf8d1, #e7c88b, #e1bd75);
+  text-decoration: none;
+  padding: 0.75em 2em;
+  border-radius: 2px;
+  color: #000;
+}
+
+.text-preview p {
+  font-size: 0.65em;
+  margin: 3em 10em;
+  letter-spacing: 0.1em;
+}
+
+/* image-card */
+
+.content-image {
+  display: flex;
+  justify-content: space-around;
+  margin: 5em 3.5em 4em 3.5em;
+}
+
+.image-card {
+  width: 16%;
+  text-align: center;
+}
+
+.image-card img {
+  width: 100%;
+  padding-bottom: 0.5em;
+}
+
+.image-card a {
+  color: #000;
+  text-transform: uppercase;
+  font-size: 0.85em;
+}
+
+.image-container {
+  margin-bottom: 1.5em;
+}
+
+.image-container img {
+  width: 100%;
+}
+
+/* content */
+
+.image-container {
+  background: url(../image/nine.jpeg) no-repeat;
+  background-size: cover;
+  height: 750px;
+}
+
+.content-text {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.content-text h1 {
+  text-transform: uppercase;
+  font-size: 2.5em;
+  font-weight: 500;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.content-text p {
+  padding: 1em 0 2em 0;
+  font-size: 1em;
+}
+
+.content-text a {
+  background-color: #000;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.75em 1.75em;
+  font-size: 0.9em;
+}
+
+/* banner-container */
+
+.banner-container {
+  text-align: center;
+  margin-top: 4em;
+  background: url(../image/gift-desktop.jpeg) no-repeat;
+  background-size: cover;
+  height: 200px;
+  margin-bottom: 2em;
+  cursor: pointer;
+}
+
+.banner-container h1 {
+  color: #fff;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 3.5em;
+  font-weight: 500;
+  padding-top: 0.25em;
+}
+
+.banner-container h2 {
+  color: #fff;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 3em;
+  font-weight: 500;
+  font-style: italic;
+  margin-bottom: 0.5em;
+}
+
+.banner-container a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-bottom: 1px solid #fff;
+}
+
+/* spotlight-container */
+
+.spotlight-container {
+  display: flex;
+}
+
+.spotlight-card {
+  width: 33.33%;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.spotlight-card img {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.spotlight-text {
+  margin-bottom: 1em;
+}
+
+.spotlight-text h1 {
+  font-weight: 500;
+  font-size: 2.5em;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.spotlight-text h1 i {
+  font-weight: 500;
+  font-size: 1em;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.spotlight-card a {
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-bottom: 1px solid #000;
+}
+
+#spotlight-mobile {
+  display: none;
+}
+
+/* video show */
+
+#video-show {
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  margin-bottom: 1em;
+}
+
+#video-show-mobile {
+  display: none;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: 1.5em;
+}
+
+/* video-confetti */
+
+#video-confetti {
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#video-confetti-mobile {
+  display: none;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: 1.5em;
+}
+
+/* text container */
+
+.text-container {
+  text-align: center;
+  margin-top: 6em;
+}
+
+.text-container h1 {
+  font-size: 2.5em;
+  font-weight: 500;
+}
+
+.media-container {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.media-container ul {
+  list-style: none;
+  display: flex;
+}
+
+.media-container ul li {
+  width: 20%;
+}
+
+.media-container img {
+  width: 100%;
+}
+
+.banner {
+  background-image: url(../image/social-impact.jpeg);
+  background-size: cover;
+  text-align: center;
+}
+
+.text-container-banner {
+  margin-right: 30em;
+  margin-bottom: 5em;
+  padding-bottom: 5em;
+}
+
+.text-container-banner h1 {
+  padding-top: 2em;
+  padding-bottom: 0.5em;
+  font-size: 2.5em;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.text-container-banner p {
+  font-size: 1em;
+  margin: 0 16em 2.5em 16em;
+}
+
+.text-container-banner a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  background-color: #000;
+  padding: 0.8em 1.8em;
+  font-size: 0.85em;
+}
+
+@media only screen and (max-width: 600px) {
+  /* preview */
+  .banner-preview-container {
+    margin-top: 0em;
+    background: url(../image/hero-mobile.jpeg) no-repeat;
+    background-size: contain;
+    display: block;
+  }
+
+  .text-preview {
+    padding-top: 14em;
+    padding-bottom: 3em;
+    margin-right: 0em;
+  }
+
+  .text-preview h3 {
+    font-size: 1.2em;
+  }
+
+  .text-preview a {
+    font-size: 0.9em;
+    padding: 1em 2.2em;
+  }
+
+  .text-preview p {
+    font-size: 0.5em;
+    margin-top: 17em;
+  }
+
+  /* image-card */
+  .content-image {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0em 1em 2em 1em;
+  }
+
+  .image-card {
+    width: 48%;
+    text-align: center;
+    margin-bottom: 3em;
+  }
+
+  .image-card img {
+    width: 100%;
+    padding-bottom: 0.5em;
+  }
+
+  .image-card a {
+    font-size: 1em;
+    letter-spacing: 0.05em;
+  }
+
+  .image-container {
+    margin-bottom: 1.5em;
+  }
+
+  /* content */
+  .image-container {
+    background: url(../image/nines-mobile.jpeg) no-repeat;
+    background-size: cover;
+    height: 26em;
+  }
+
+  .content-text {
+    margin-bottom: 4em;
+  }
+
+  .content-text h1 {
+    font-size: 2.5em;
+  }
+
+  .content-text p {
+    padding: 1em 4em 2em 4em;
+    font-size: 1em;
+  }
+
+  .content-text a {
+    font-size: 1em;
+  }
+
+  /* banner-container */
+
+  .banner-container {
+    margin-top: 4em;
+    background: url(../image/gift-desktop.jpeg) no-repeat;
+    background-size: cover;
+    height: 13em;
+    margin-bottom: 2em;
+  }
+
+  .banner-container h1 {
+    font-size: 2.5em;
+    line-height: 1em;
+    padding-top: 0.5em;
+  }
+
+  .banner-container h2 {
+    font-size: 2.5em;
+    margin-bottom: 0.25em;
+  }
+
+  .banner-container a {
+    font-size: 1em;
+  }
+
+  /* video show  */
+
+  #video-show {
+    display: none;
+  }
+
+  #video-show-mobile {
+    display: block;
+  }
+
+  /* spotlight-container */
+
+  .spotlight-container {
+    flex-direction: column;
+  }
+
+  .spotlight-card {
+    width: 100%;
+    margin-bottom: 3em;
+  }
+
+  .spotlight-card img {
+    width: 100%;
+    margin-bottom: 1.5em;
+  }
+
+  .spotlight-text h1 {
+    font-size: 2.5em;
+  }
+
+  .spotlight-card a {
+    font-size: 1em;
+  }
+
+  #spotlight-mobile {
+    display: block;
+  }
+
+  #spotlight-desktop {
+    display: none;
+  }
+
+  /* video confetti */
+
+  #video-confetti {
+    display: none;
+  }
+
+  #video-confetti-mobile {
+    display: block;
+  }
+
+  /* text container */
+
+  .text-container h1 {
+    font-size: 1.5em;
+    margin: 0 4em;
+  }
+  .media-container {
+    margin: 1.5em 0.75em 3em 0.75em;
+    overflow: scroll;
+  }
+  .media-container ul {
+    height: 17em;
+  }
+  .media-container ul li {
+    margin-right: 4.5em;
+  }
+  .media-container img {
+    width: auto;
+    height: 16em;
+  }
+
+  /* banner social impact */
+
+  .banner {
+    background: url(../image/social-impact-mobile.jpeg) no-repeat;
+    background-size: cover;
+  }
+  .text-container-banner {
+    margin-right: 0em;
+    padding-bottom: 3em;
+  }
+  .text-container-banner h1 {
+    padding-top: 3em;
+    padding-bottom: 0.3em;
+    margin: 0 1em;
+    font-size: 2.5em;
+  }
+  .text-container-banner p {
+    font-size: 1em;
+    margin: 0 5.65em 2em 5.65em;
+  }
+  .text-container-banner a {
+    padding: 0.8em 1.8em;
+    font-size: 1em;
+  }
+}
